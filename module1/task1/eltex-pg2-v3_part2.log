@@ -1,0 +1,1352 @@
+Script started on 2026-10-10 16:16:45+07:00 [TERM="screen.xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls
+ls           lsblk        lscpu        lsinitramfs  lsirq        lslogins     lsmod        lsof         lsusb
+lsattr       lsb_release  lsfd         lsipc        lslocks      lsmem        lsns         lspci        
+eltex-pg2-v3@eltex-2026-autumn:~$ ls$HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE      
+eltex-pg2-v3@eltex-2026-autumn:~$ $HISTecho $HISTFILESIZE
+[?2004l2000
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls ~/.
+[?2004leltex-pg2-v3_part.log  report_part1.txt
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls ~/.[C[C/.[1P../.[C[C.
+[?2004lls: cannot access '~./.': No such file or directory
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls ~././.
+./  ../ 
+eltex-pg2-v3@eltex-2026-autumn:~$ ls /.
+[?2004lbin   dev  home        initrd.img.old  lib64       media  opt   root  sbin  sys  usr  vmlinuz
+boot  etc  initrd.img  lib             lost+found  mnt    proc  run   srv   tmp  var  vmlinuz.old
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls /.*
+[?2004lls: cannot access '/.*': No such file or directory
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls /.*~/.*
+[?2004l/home/eltex-pg2-v3/.bash_history  /home/eltex-pg2-v3/.bashrc   /home/eltex-pg2-v3/.log      /home/eltex-pg2-v3/.viminfo
+/home/eltex-pg2-v3/.bash_logout   /home/eltex-pg2-v3/.lesshst  /home/eltex-pg2-v3/.profile
+
+/home/eltex-pg2-v3/.config:
+procps
+
+/home/eltex-pg2-v3/.local:
+share
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ export HISTTIMEFORMAT="%F %T "
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ histiry
+[?2004lbash: histiry: command not found
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ histiry[1Pryory
+[?2004l    1  2026-10-10 16:16:45 d
+    2  2026-10-10 16:16:45 screen d
+    3  2026-10-10 16:16:45 screen -ls
+    4  2026-10-10 16:16:45 screen -r
+    5  2026-10-10 16:16:45 w
+    6  2026-10-10 16:16:45 screen
+    7  2026-10-10 16:16:45 d
+    8  2026-10-10 16:16:45 w
+    9  2026-10-10 16:16:45 top
+   10  2026-10-10 16:16:45 d
+   11  2026-10-10 16:16:45 screen -ls
+   12  2026-10-10 16:16:45 screen
+   13  2026-10-10 16:16:45 screen -ls
+   14  2026-10-10 16:16:45 screen -d -S my_name
+   15  2026-10-10 16:16:45 screen -d 3351269
+   16  2026-10-10 16:16:45 screen -d 3351269.pts-0.eltex-2026-autumn
+   17  2026-10-10 16:16:45 screen -d -ь 3351269.pts-0.eltex-2026-autumn
+   18  2026-10-10 16:16:45 screen -d -m 3351269.pts-0.eltex-2026-autumn
+   19  2026-10-10 16:16:45 screen -ls
+   20  2026-10-10 16:16:45 screen -r
+   21  2026-10-10 16:16:45 screen -r 3351269.pts-0.eltex-2026-autumn
+   22  2026-10-10 16:16:45 screen -ls
+   23  2026-10-10 16:16:45 screen
+   24  2026-10-10 16:16:45 screen -ls
+   25  2026-10-10 16:16:45 d
+   26  2026-10-10 16:16:45 DDDDdddd
+   27  2026-10-10 16:16:45 d
+   28  2026-10-10 16:16:45 w
+   29  2026-10-10 16:16:45 в
+   30  2026-10-10 16:16:45 d
+   31  2026-10-10 16:16:45 w
+   32  2026-10-10 16:16:45 screen -ls
+   33  2026-10-10 16:16:45 ps
+   34  2026-10-10 16:16:45 screen
+   35  2026-10-10 16:16:45 screen -ls
+   36  2026-10-10 16:16:45 screen -r 3316924.pts-0.eltex-2026-autumn
+   37  2026-10-10 16:16:45 screen -r 3316924
+   38  2026-10-10 16:16:45 screen
+   39  2026-10-10 16:16:45 screen -ls
+   40  2026-10-10 16:16:45 screen -r 3316924.pts-0.eltex-2026-autumn
+   41  2026-10-10 16:16:45 screen -ls
+   42  2026-10-10 16:16:45 screen
+   43  2026-10-10 16:16:45 screen -ls
+   44  2026-10-10 16:16:45 session -r 3363633.pts-0.eltex-2026-autumn
+   45  2026-10-10 16:16:45 screen -r 3363633.pts-0.eltex-2026-autumn
+   46  2026-10-10 16:16:45 screen -ls
+   47  2026-10-10 16:16:45 screen -r 3363633.pts-0.eltex-2026-autumn
+   48  2026-10-10 16:16:45 screen -ls
+   49  2026-10-10 16:16:45 screen -r top
+   50  2026-10-10 16:16:45 screen -r 3363633.pts-0.eltex-2026-autumn
+   51  2026-10-10 16:16:45 screen -ls
+   52  2026-10-10 16:16:45 screen -r 3363633.top
+   53  2026-10-10 16:16:45 screen -ls
+   54  2026-10-10 16:16:45 screen -r 3363633.top
+   55  2026-10-10 16:16:45 screen
+   56  2026-10-10 16:16:45 screen -ls
+   57  2026-10-10 16:16:45 watch /usr/bin/vmstat
+   58  2026-10-10 16:16:45 screen -ls
+   59  2026-10-10 16:16:45 screen -r 3363633.top
+   60  2026-10-10 16:16:45 screen -d -r 3363633.top
+   61  2026-10-10 16:16:45 screen -ls
+   62  2026-10-10 16:16:45 w
+   63  2026-10-10 16:16:45 man screen
+   64  2026-10-10 16:16:45 top
+   65  2026-10-10 16:16:45 vi report_part1.txt
+   66  2026-10-10 16:16:45 ls
+   67  2026-10-10 16:16:45 vi report_part1.txt
+   68  2026-10-10 16:16:45 ls
+   69  2026-10-10 16:16:45 vi report_part1.txt
+   70  2026-10-10 16:16:45 ls
+   71  2026-10-10 16:16:45 nano report_part1.txt 
+   72  2026-10-10 16:16:45 cat report_part1.txt 
+   73  2026-10-10 16:16:45 qды
+   74  2026-10-10 16:16:45 screen -r 3393200.pts-0.eltex-2026-autumn
+   75  2026-10-10 16:16:45 screen -ls
+   76  2026-10-10 16:16:45 screen -X -S 3363633.top quit
+   77  2026-10-10 16:16:45 screen -X -S 3393200.pts-0.eltex-2026-autumn quit
+   78  2026-10-10 16:16:45 screen -ls
+   79  2026-10-10 16:16:45 touch eltex-pg2-v3_part.log
+   80  2026-10-10 16:16:45 script -f -q /dev/stdout | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" > eltex-pg2-v3_part.log 
+   81  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+   82  2026-10-10 16:16:45 rm eltex-pg2-v3_part.log 
+   83  2026-10-10 16:16:45 history
+   84  2026-10-10 16:16:45 touch eltex-pg2-v3_part.log
+   85  2026-10-10 16:16:45 screen -S `whoami`_part2
+   86  2026-10-10 16:16:45 screen -ls
+   87  2026-10-10 16:16:45 screen -r 3439045.eltex-pg2-v3_part2
+   88  2026-10-10 16:16:45 screen -ls
+   89  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+   90  2026-10-10 16:16:45 screen -ls
+   91  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+   92  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2 
+   93  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2  
+   94  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+   95  2026-10-10 16:16:45 screen -d -r 3439045.`whoami`_part2
+   96  2026-10-09 16:29:07 quit
+   97  2026-10-09 16:32:56 ды
+   98  2026-10-09 16:32:58 сфе
+   99  2026-10-09 16:33:06 cat
+  100  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  101  2026-10-10 16:16:45 cat report_part1.txt 
+  102  2026-10-10 16:16:45 cat report_part1.txt 
+  103  2026-10-10 16:16:45 tail -f
+  104  2026-10-10 16:16:45 tail -f eltex-pg2-v3_part.log 
+  105  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  106  2026-10-10 16:16:45 tail -f eltex-pg2-v3_part.log 
+  107  2026-10-10 16:16:45 touch write_comm.sh
+  108  2026-10-10 16:16:45 nano write_
+  109  2026-10-10 16:16:45 nano write_comm.sh 
+  110  2026-10-10 16:16:45 bash write_comm.sh &
+  111  2026-10-10 16:16:45 cat write_comm.sh 
+  112  2026-10-10 16:16:45 rm write_logs.sh 
+  113  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  114  2026-10-10 16:16:45 ps
+  115  2026-10-10 16:16:45 kill -9 3484847
+  116  2026-10-10 16:16:45 ps -a
+  117  2026-10-10 16:16:45 bash write_comm.sh
+  118  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  119  2026-10-10 16:16:45 ls
+  120  2026-10-10 16:16:45 ls -a
+  121  2026-10-10 16:16:45 ps
+  122  2026-10-10 16:16:45 bash write_comm.sh
+  123  2026-10-10 16:16:45 rm write_comm.sh 
+  124  2026-10-10 16:16:45 nano ~/.bashrc 
+  125  2026-10-10 16:16:45 source ~/.bashrc
+  126  2026-10-10 16:16:45 screen -ls
+  127  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+  128  2026-10-10 16:16:45 screen -d -r 3439045.`whoami`_part2
+  129  2026-10-10 16:16:45 screen -ls
+  130  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  131  2026-10-10 16:16:45 ls
+  132  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  133  2026-10-10 16:16:45 ls
+  134  2026-10-10 16:16:45 dfs
+  135  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  136  2026-10-10 16:16:45 ls
+  137  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  138  2026-10-10 16:16:45 cat report_part1.txt 
+  139  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  140  2026-10-10 16:16:45 cat report_part1.txt 
+  141  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  142  2026-10-10 16:16:45 screen -ls
+  143  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  144  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  145  2026-10-10 16:16:45 screen -ls
+  146  2026-10-10 16:16:45 screen -X -S 3439045.`whoami`_part2
+  147  2026-10-10 16:16:45 screen -X -S '3439045.`whoami`_part2'
+  148  2026-10-10 16:16:45 screen -X -S '3439045.`whoami`_part2' quit
+  149  2026-10-10 16:16:45 screen -ls
+  150  2026-10-10 16:16:45 screen
+  151  2026-10-10 16:16:45 screen -ls
+  152  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  153  2026-10-10 16:16:45 screen -r '3482982.`whoami`_part2'
+  154  2026-10-10 16:16:45 screen -ls
+  155  2026-10-10 16:16:45 screen
+  156  2026-10-10 16:16:45 screen -r '3482982.`whoami`_part2'
+  157  2026-10-10 16:16:45 screen -ls
+  158  2026-10-10 16:16:45 screen -r 3490814.pts-0.eltex-2026-autumn
+  159  2026-10-10 16:16:45 screen -ls
+  160  2026-10-10 16:16:45 screen
+  161  2026-10-10 16:16:45 screen -wipe && killall screen
+  162  2026-10-10 16:16:45 screen -wipe
+  163  2026-10-10 16:16:45 killall -9 screen
+  164  2026-10-10 16:16:45 kill -9 screen
+  165  2026-10-10 16:16:45 rm -f ~/.screenrc
+  166  2026-10-10 16:16:45 rm -rf /run/screen/S-$USER/
+  167  2026-10-10 16:16:45 rm -rf /var/run/screen/S-$USER/
+  168  2026-10-10 16:16:45 screen -ls
+  169  2026-10-10 16:16:45 screen
+  170  2026-10-10 16:16:45 cat report_part1.txt 
+  171  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  172  2026-10-10 16:16:45 exit
+  173  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  174  2026-10-10 16:16:45 cat report_part1.txt 
+  175  2026-10-10 16:16:45 pd
+  176  2026-10-10 16:16:45 ps
+  177  2026-10-10 16:16:45 rm eltex-pg2-v3_part.log 
+  178  2026-10-10 16:16:45 exit
+  179  2026-10-10 16:16:45 cat report_part1.txt 
+  180  2026-10-10 16:16:45 exit
+  181  2026-10-10 16:16:45 ls -a
+  182  2026-10-10 16:16:45 cat .log
+  183  2026-10-10 16:16:45 exit
+  184  2026-10-10 16:16:45 cat report_part1.txt 
+  185  2026-10-10 16:16:45 ls
+  186  2026-10-10 16:16:45 ls -a
+  187  2026-10-10 16:16:45 exit
+  188  2026-10-10 16:16:45 man history
+  189  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  190  2026-10-10 16:16:45 exit
+  191  2026-10-10 16:17:17 echo $HISTFILESIZE
+  192  2026-10-10 16:17:45 ls ~/.
+  193  2026-10-10 16:17:58 ls ~./.
+  194  2026-10-10 16:18:07 ls /.
+  195  2026-10-10 16:18:21 ls /.*
+  196  2026-10-10 16:18:28 ls ~/.*
+  197  2026-10-10 16:19:14 export HISTTIMEFORMAT="%F %T "
+  198  2026-10-10 16:19:33 histiry
+  199  2026-10-10 16:19:36 history
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ вфеу
+[?2004lbash: вфеу: command not found
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ date
+[?2004lSat Oct 10 04:20:27 PM +07 2026
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ history | tail -n 205
+[?2004l  198  2026-10-10 16:19:33 histiry
+  199  2026-10-10 16:19:36 history
+  200  2026-10-10 16:20:25 вфеу
+  201  2026-10-10 16:20:27 date
+  202  2026-10-10 16:20:40 history | tail -n 5
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ echo $PROMPT_COMMAND
+[?2004l
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ тфтexport PROMPT_COMMAND="history -a"
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ history | tail -n 5
+[?2004l  201  2026-10-10 16:20:27 date
+  202  2026-10-10 16:20:40 history | tail -n 5
+  203  2026-10-10 16:21:57 echo $PROMPT_COMMAND
+  204  2026-10-10 16:24:40 export PROMPT_COMMAND="history -a"
+  205  2026-10-10 16:24:54 history | tail -n 5
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ history | tail -n 5export PROMPT_COMMAND="history -a"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ export PROMPT_COMMAND=""[5Phistory | tail -n 5
+[?2004l  203  2026-10-10 16:21:57 echo $PROMPT_COMMAND
+  204  2026-10-10 16:24:40 export PROMPT_COMMAND="history -a"
+  205  2026-10-10 16:24:54 history | tail -n 5
+  206  2026-10-10 16:25:14 export PROMPT_COMMAND=""
+  207  2026-10-10 16:25:18 history | tail -n 5
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ history | tail -n 5
+[?2004l    1  2026-10-10 16:16:45 d
+    2  2026-10-10 16:16:45 screen d
+    3  2026-10-10 16:16:45 screen -ls
+    4  2026-10-10 16:16:45 screen -r
+    5  2026-10-10 16:16:45 w
+    6  2026-10-10 16:16:45 screen
+    7  2026-10-10 16:16:45 d
+    8  2026-10-10 16:16:45 w
+    9  2026-10-10 16:16:45 top
+   10  2026-10-10 16:16:45 d
+   11  2026-10-10 16:16:45 screen -ls
+   12  2026-10-10 16:16:45 screen
+   13  2026-10-10 16:16:45 screen -ls
+   14  2026-10-10 16:16:45 screen -d -S my_name
+   15  2026-10-10 16:16:45 screen -d 3351269
+   16  2026-10-10 16:16:45 screen -d 3351269.pts-0.eltex-2026-autumn
+   17  2026-10-10 16:16:45 screen -d -ь 3351269.pts-0.eltex-2026-autumn
+   18  2026-10-10 16:16:45 screen -d -m 3351269.pts-0.eltex-2026-autumn
+   19  2026-10-10 16:16:45 screen -ls
+   20  2026-10-10 16:16:45 screen -r
+   21  2026-10-10 16:16:45 screen -r 3351269.pts-0.eltex-2026-autumn
+   22  2026-10-10 16:16:45 screen -ls
+   23  2026-10-10 16:16:45 screen
+   24  2026-10-10 16:16:45 screen -ls
+   25  2026-10-10 16:16:45 d
+   26  2026-10-10 16:16:45 DDDDdddd
+   27  2026-10-10 16:16:45 d
+   28  2026-10-10 16:16:45 w
+   29  2026-10-10 16:16:45 в
+   30  2026-10-10 16:16:45 d
+   31  2026-10-10 16:16:45 w
+   32  2026-10-10 16:16:45 screen -ls
+   33  2026-10-10 16:16:45 ps
+   34  2026-10-10 16:16:45 screen
+   35  2026-10-10 16:16:45 screen -ls
+   36  2026-10-10 16:16:45 screen -r 3316924.pts-0.eltex-2026-autumn
+   37  2026-10-10 16:16:45 screen -r 3316924
+   38  2026-10-10 16:16:45 screen
+   39  2026-10-10 16:16:45 screen -ls
+   40  2026-10-10 16:16:45 screen -r 3316924.pts-0.eltex-2026-autumn
+   41  2026-10-10 16:16:45 screen -ls
+   42  2026-10-10 16:16:45 screen
+   43  2026-10-10 16:16:45 screen -ls
+   44  2026-10-10 16:16:45 session -r 3363633.pts-0.eltex-2026-autumn
+   45  2026-10-10 16:16:45 screen -r 3363633.pts-0.eltex-2026-autumn
+   46  2026-10-10 16:16:45 screen -ls
+   47  2026-10-10 16:16:45 screen -r 3363633.pts-0.eltex-2026-autumn
+   48  2026-10-10 16:16:45 screen -ls
+   49  2026-10-10 16:16:45 screen -r top
+   50  2026-10-10 16:16:45 screen -r 3363633.pts-0.eltex-2026-autumn
+   51  2026-10-10 16:16:45 screen -ls
+   52  2026-10-10 16:16:45 screen -r 3363633.top
+   53  2026-10-10 16:16:45 screen -ls
+   54  2026-10-10 16:16:45 screen -r 3363633.top
+   55  2026-10-10 16:16:45 screen
+   56  2026-10-10 16:16:45 screen -ls
+   57  2026-10-10 16:16:45 watch /usr/bin/vmstat
+   58  2026-10-10 16:16:45 screen -ls
+   59  2026-10-10 16:16:45 screen -r 3363633.top
+   60  2026-10-10 16:16:45 screen -d -r 3363633.top
+   61  2026-10-10 16:16:45 screen -ls
+   62  2026-10-10 16:16:45 w
+   63  2026-10-10 16:16:45 man screen
+   64  2026-10-10 16:16:45 top
+   65  2026-10-10 16:16:45 vi report_part1.txt
+   66  2026-10-10 16:16:45 ls
+   67  2026-10-10 16:16:45 vi report_part1.txt
+   68  2026-10-10 16:16:45 ls
+   69  2026-10-10 16:16:45 vi report_part1.txt
+   70  2026-10-10 16:16:45 ls
+   71  2026-10-10 16:16:45 nano report_part1.txt 
+   72  2026-10-10 16:16:45 cat report_part1.txt 
+   73  2026-10-10 16:16:45 qды
+   74  2026-10-10 16:16:45 screen -r 3393200.pts-0.eltex-2026-autumn
+   75  2026-10-10 16:16:45 screen -ls
+   76  2026-10-10 16:16:45 screen -X -S 3363633.top quit
+   77  2026-10-10 16:16:45 screen -X -S 3393200.pts-0.eltex-2026-autumn quit
+   78  2026-10-10 16:16:45 screen -ls
+   79  2026-10-10 16:16:45 touch eltex-pg2-v3_part.log
+   80  2026-10-10 16:16:45 script -f -q /dev/stdout | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" > eltex-pg2-v3_part.log 
+   81  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+   82  2026-10-10 16:16:45 rm eltex-pg2-v3_part.log 
+   83  2026-10-10 16:16:45 history
+   84  2026-10-10 16:16:45 touch eltex-pg2-v3_part.log
+   85  2026-10-10 16:16:45 screen -S `whoami`_part2
+   86  2026-10-10 16:16:45 screen -ls
+   87  2026-10-10 16:16:45 screen -r 3439045.eltex-pg2-v3_part2
+   88  2026-10-10 16:16:45 screen -ls
+   89  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+   90  2026-10-10 16:16:45 screen -ls
+   91  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+   92  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2 
+   93  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2  
+   94  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+   95  2026-10-10 16:16:45 screen -d -r 3439045.`whoami`_part2
+   96  2026-10-09 16:29:07 quit
+   97  2026-10-09 16:32:56 ды
+   98  2026-10-09 16:32:58 сфе
+   99  2026-10-09 16:33:06 cat
+  100  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  101  2026-10-10 16:16:45 cat report_part1.txt 
+  102  2026-10-10 16:16:45 cat report_part1.txt 
+  103  2026-10-10 16:16:45 tail -f
+  104  2026-10-10 16:16:45 tail -f eltex-pg2-v3_part.log 
+  105  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  106  2026-10-10 16:16:45 tail -f eltex-pg2-v3_part.log 
+  107  2026-10-10 16:16:45 touch write_comm.sh
+  108  2026-10-10 16:16:45 nano write_
+  109  2026-10-10 16:16:45 nano write_comm.sh 
+  110  2026-10-10 16:16:45 bash write_comm.sh &
+  111  2026-10-10 16:16:45 cat write_comm.sh 
+  112  2026-10-10 16:16:45 rm write_logs.sh 
+  113  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  114  2026-10-10 16:16:45 ps
+  115  2026-10-10 16:16:45 kill -9 3484847
+  116  2026-10-10 16:16:45 ps -a
+  117  2026-10-10 16:16:45 bash write_comm.sh
+  118  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  119  2026-10-10 16:16:45 ls
+  120  2026-10-10 16:16:45 ls -a
+  121  2026-10-10 16:16:45 ps
+  122  2026-10-10 16:16:45 bash write_comm.sh
+  123  2026-10-10 16:16:45 rm write_comm.sh 
+  124  2026-10-10 16:16:45 nano ~/.bashrc 
+  125  2026-10-10 16:16:45 source ~/.bashrc
+  126  2026-10-10 16:16:45 screen -ls
+  127  2026-10-10 16:16:45 screen -r 3439045.`whoami`_part2
+  128  2026-10-10 16:16:45 screen -d -r 3439045.`whoami`_part2
+  129  2026-10-10 16:16:45 screen -ls
+  130  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  131  2026-10-10 16:16:45 ls
+  132  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  133  2026-10-10 16:16:45 ls
+  134  2026-10-10 16:16:45 dfs
+  135  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  136  2026-10-10 16:16:45 ls
+  137  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  138  2026-10-10 16:16:45 cat report_part1.txt 
+  139  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  140  2026-10-10 16:16:45 cat report_part1.txt 
+  141  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  142  2026-10-10 16:16:45 screen -ls
+  143  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  144  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  145  2026-10-10 16:16:45 screen -ls
+  146  2026-10-10 16:16:45 screen -X -S 3439045.`whoami`_part2
+  147  2026-10-10 16:16:45 screen -X -S '3439045.`whoami`_part2'
+  148  2026-10-10 16:16:45 screen -X -S '3439045.`whoami`_part2' quit
+  149  2026-10-10 16:16:45 screen -ls
+  150  2026-10-10 16:16:45 screen
+  151  2026-10-10 16:16:45 screen -ls
+  152  2026-10-10 16:16:45 screen -r '3439045.`whoami`_part2'
+  153  2026-10-10 16:16:45 screen -r '3482982.`whoami`_part2'
+  154  2026-10-10 16:16:45 screen -ls
+  155  2026-10-10 16:16:45 screen
+  156  2026-10-10 16:16:45 screen -r '3482982.`whoami`_part2'
+  157  2026-10-10 16:16:45 screen -ls
+  158  2026-10-10 16:16:45 screen -r 3490814.pts-0.eltex-2026-autumn
+  159  2026-10-10 16:16:45 screen -ls
+  160  2026-10-10 16:16:45 screen
+  161  2026-10-10 16:16:45 screen -wipe && killall screen
+  162  2026-10-10 16:16:45 screen -wipe
+  163  2026-10-10 16:16:45 killall -9 screen
+  164  2026-10-10 16:16:45 kill -9 screen
+  165  2026-10-10 16:16:45 rm -f ~/.screenrc
+  166  2026-10-10 16:16:45 rm -rf /run/screen/S-$USER/
+  167  2026-10-10 16:16:45 rm -rf /var/run/screen/S-$USER/
+  168  2026-10-10 16:16:45 screen -ls
+  169  2026-10-10 16:16:45 screen
+  170  2026-10-10 16:16:45 cat report_part1.txt 
+  171  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  172  2026-10-10 16:16:45 exit
+  173  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  174  2026-10-10 16:16:45 cat report_part1.txt 
+  175  2026-10-10 16:16:45 pd
+  176  2026-10-10 16:16:45 ps
+  177  2026-10-10 16:16:45 rm eltex-pg2-v3_part.log 
+  178  2026-10-10 16:16:45 exit
+  179  2026-10-10 16:16:45 cat report_part1.txt 
+  180  2026-10-10 16:16:45 exit
+  181  2026-10-10 16:16:45 ls -a
+  182  2026-10-10 16:16:45 cat .log
+  183  2026-10-10 16:16:45 exit
+  184  2026-10-10 16:16:45 cat report_part1.txt 
+  185  2026-10-10 16:16:45 ls
+  186  2026-10-10 16:16:45 ls -a
+  187  2026-10-10 16:16:45 exit
+  188  2026-10-10 16:16:45 man history
+  189  2026-10-10 16:16:45 cat eltex-pg2-v3_part.log 
+  190  2026-10-10 16:16:45 exit
+  191  2026-10-10 16:17:17 echo $HISTFILESIZE
+  192  2026-10-10 16:17:45 ls ~/.
+  193  2026-10-10 16:17:58 ls ~./.
+  194  2026-10-10 16:18:07 ls /.
+  195  2026-10-10 16:18:21 ls /.*
+  196  2026-10-10 16:18:28 ls ~/.*
+  197  2026-10-10 16:19:14 export HISTTIMEFORMAT="%F %T "
+  198  2026-10-10 16:19:33 histiry
+  199  2026-10-10 16:19:36 history
+  200  2026-10-10 16:20:25 вфеу
+  201  2026-10-10 16:20:27 date
+  202  2026-10-10 16:20:40 history | tail -n 5
+  203  2026-10-10 16:21:57 echo $PROMPT_COMMAND
+  204  2026-10-10 16:24:40 export PROMPT_COMMAND="history -a"
+  205  2026-10-10 16:24:54 history | tail -n 5
+  206  2026-10-10 16:25:14 export PROMPT_COMMAND=""
+  207  2026-10-10 16:25:18 history | tail -n 5
+  208  2026-10-10 16:25:22 history
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ cat ~/.bash_history
+[?2004ld
+screen d
+screen -ls
+screen -r
+w
+screen
+d
+w
+top
+d
+screen -ls
+screen
+screen -ls
+screen -d -S my_name
+screen -d 3351269
+screen -d 3351269.pts-0.eltex-2026-autumn
+screen -d -ь 3351269.pts-0.eltex-2026-autumn
+screen -d -m 3351269.pts-0.eltex-2026-autumn
+screen -ls
+screen -r
+screen -r 3351269.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -ls
+d
+DDDDdddd
+d
+w
+в
+d
+w
+screen -ls
+ps
+screen
+screen -ls
+screen -r 3316924.pts-0.eltex-2026-autumn
+screen -r 3316924
+screen
+screen -ls
+screen -r 3316924.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -ls
+session -r 3363633.pts-0.eltex-2026-autumn
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r top
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r 3363633.top
+screen -ls
+screen -r 3363633.top
+screen
+screen -ls
+watch /usr/bin/vmstat
+screen -ls
+screen -r 3363633.top
+screen -d -r 3363633.top
+screen -ls
+w
+man screen
+top
+vi report_part1.txt
+ls
+vi report_part1.txt
+ls
+vi report_part1.txt
+ls
+nano report_part1.txt 
+cat report_part1.txt 
+qды
+screen -r 3393200.pts-0.eltex-2026-autumn
+screen -ls
+screen -X -S 3363633.top quit
+screen -X -S 3393200.pts-0.eltex-2026-autumn quit
+screen -ls
+touch eltex-pg2-v3_part.log
+script -f -q /dev/stdout | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" > eltex-pg2-v3_part.log 
+cat eltex-pg2-v3_part.log 
+rm eltex-pg2-v3_part.log 
+history
+touch eltex-pg2-v3_part.log
+screen -S `whoami`_part2
+screen -ls
+screen -r 3439045.eltex-pg2-v3_part2
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -r 3439045.`whoami`_part2 
+screen -r 3439045.`whoami`_part2  
+screen -r 3439045.`whoami`_part2
+screen -d -r 3439045.`whoami`_part2
+#1791538147
+quit
+#1791538376
+ды
+#1791538378
+сфе
+#1791538386
+cat
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+
+cat report_part1.txt 
+tail -f
+tail -f eltex-pg2-v3_part.log 
+cat eltex-pg2-v3_part.log 
+tail -f eltex-pg2-v3_part.log 
+touch write_comm.sh
+nano write_
+nano write_comm.sh 
+bash write_comm.sh &
+cat write_comm.sh 
+rm write_logs.sh 
+cat eltex-pg2-v3_part.log 
+ps
+kill -9 3484847
+ps -a
+bash write_comm.sh
+cat eltex-pg2-v3_part.log 
+ls
+ls -a
+ps
+bash write_comm.sh
+rm write_comm.sh 
+nano ~/.bashrc 
+source ~/.bashrc
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -d -r 3439045.`whoami`_part2
+screen -ls
+screen -r '3439045.`whoami`_part2'
+ls
+screen -r '3439045.`whoami`_part2'
+ls
+dfs
+screen -r '3439045.`whoami`_part2'
+ls
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+screen -r '3439045.`whoami`_part2'
+cat report_part1.txt 
+screen -r '3439045.`whoami`_part2'
+screen -ls
+cat eltex-pg2-v3_part.log 
+screen -r '3439045.`whoami`_part2'
+screen -ls
+screen -X -S 3439045.`whoami`_part2
+screen -X -S '3439045.`whoami`_part2'
+screen -X -S '3439045.`whoami`_part2' quit
+screen -ls
+screen
+screen -ls
+screen -r '3439045.`whoami`_part2'
+screen -r '3482982.`whoami`_part2'
+screen -ls
+screen
+screen -r '3482982.`whoami`_part2'
+screen -ls
+screen -r 3490814.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -wipe && killall screen
+screen -wipe
+killall -9 screen
+kill -9 screen
+rm -f ~/.screenrc
+rm -rf /run/screen/S-$USER/
+rm -rf /var/run/screen/S-$USER/
+screen -ls
+screen
+cat report_part1.txt 
+cat eltex-pg2-v3_part.log 
+exit
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+pd
+ps
+rm eltex-pg2-v3_part.log 
+exit
+cat report_part1.txt 
+exit
+ls -a
+cat .log
+exit
+cat report_part1.txt 
+ls
+ls -a
+exit
+man history
+cat eltex-pg2-v3_part.log 
+exit
+#1791623837
+echo $HISTFILESIZE
+#1791623865
+ls ~/.
+#1791623878
+ls ~./.
+#1791623887
+ls /.
+#1791623901
+ls /.*
+#1791623908
+ls ~/.*
+#1791623954
+export HISTTIMEFORMAT="%F %T "
+#1791623973
+histiry
+#1791623976
+history
+#1791624025
+вфеу
+#1791624027
+date
+#1791624040
+history | tail -n 5
+#1791624117
+echo $PROMPT_COMMAND
+#1791624280
+export PROMPT_COMMAND="history -a"
+#1791624294
+history | tail -n 5
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ date
+[?2004lSat Oct 10 04:26:13 PM +07 2026
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ datecat ~/.bash_history
+[?2004ld
+screen d
+screen -ls
+screen -r
+w
+screen
+d
+w
+top
+d
+screen -ls
+screen
+screen -ls
+screen -d -S my_name
+screen -d 3351269
+screen -d 3351269.pts-0.eltex-2026-autumn
+screen -d -ь 3351269.pts-0.eltex-2026-autumn
+screen -d -m 3351269.pts-0.eltex-2026-autumn
+screen -ls
+screen -r
+screen -r 3351269.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -ls
+d
+DDDDdddd
+d
+w
+в
+d
+w
+screen -ls
+ps
+screen
+screen -ls
+screen -r 3316924.pts-0.eltex-2026-autumn
+screen -r 3316924
+screen
+screen -ls
+screen -r 3316924.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -ls
+session -r 3363633.pts-0.eltex-2026-autumn
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r top
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r 3363633.top
+screen -ls
+screen -r 3363633.top
+screen
+screen -ls
+watch /usr/bin/vmstat
+screen -ls
+screen -r 3363633.top
+screen -d -r 3363633.top
+screen -ls
+w
+man screen
+top
+vi report_part1.txt
+ls
+vi report_part1.txt
+ls
+vi report_part1.txt
+ls
+nano report_part1.txt 
+cat report_part1.txt 
+qды
+screen -r 3393200.pts-0.eltex-2026-autumn
+screen -ls
+screen -X -S 3363633.top quit
+screen -X -S 3393200.pts-0.eltex-2026-autumn quit
+screen -ls
+touch eltex-pg2-v3_part.log
+script -f -q /dev/stdout | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" > eltex-pg2-v3_part.log 
+cat eltex-pg2-v3_part.log 
+rm eltex-pg2-v3_part.log 
+history
+touch eltex-pg2-v3_part.log
+screen -S `whoami`_part2
+screen -ls
+screen -r 3439045.eltex-pg2-v3_part2
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -r 3439045.`whoami`_part2 
+screen -r 3439045.`whoami`_part2  
+screen -r 3439045.`whoami`_part2
+screen -d -r 3439045.`whoami`_part2
+#1791538147
+quit
+#1791538376
+ды
+#1791538378
+сфе
+#1791538386
+cat
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+
+cat report_part1.txt 
+tail -f
+tail -f eltex-pg2-v3_part.log 
+cat eltex-pg2-v3_part.log 
+tail -f eltex-pg2-v3_part.log 
+touch write_comm.sh
+nano write_
+nano write_comm.sh 
+bash write_comm.sh &
+cat write_comm.sh 
+rm write_logs.sh 
+cat eltex-pg2-v3_part.log 
+ps
+kill -9 3484847
+ps -a
+bash write_comm.sh
+cat eltex-pg2-v3_part.log 
+ls
+ls -a
+ps
+bash write_comm.sh
+rm write_comm.sh 
+nano ~/.bashrc 
+source ~/.bashrc
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -d -r 3439045.`whoami`_part2
+screen -ls
+screen -r '3439045.`whoami`_part2'
+ls
+screen -r '3439045.`whoami`_part2'
+ls
+dfs
+screen -r '3439045.`whoami`_part2'
+ls
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+screen -r '3439045.`whoami`_part2'
+cat report_part1.txt 
+screen -r '3439045.`whoami`_part2'
+screen -ls
+cat eltex-pg2-v3_part.log 
+screen -r '3439045.`whoami`_part2'
+screen -ls
+screen -X -S 3439045.`whoami`_part2
+screen -X -S '3439045.`whoami`_part2'
+screen -X -S '3439045.`whoami`_part2' quit
+screen -ls
+screen
+screen -ls
+screen -r '3439045.`whoami`_part2'
+screen -r '3482982.`whoami`_part2'
+screen -ls
+screen
+screen -r '3482982.`whoami`_part2'
+screen -ls
+screen -r 3490814.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -wipe && killall screen
+screen -wipe
+killall -9 screen
+kill -9 screen
+rm -f ~/.screenrc
+rm -rf /run/screen/S-$USER/
+rm -rf /var/run/screen/S-$USER/
+screen -ls
+screen
+cat report_part1.txt 
+cat eltex-pg2-v3_part.log 
+exit
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+pd
+ps
+rm eltex-pg2-v3_part.log 
+exit
+cat report_part1.txt 
+exit
+ls -a
+cat .log
+exit
+cat report_part1.txt 
+ls
+ls -a
+exit
+man history
+cat eltex-pg2-v3_part.log 
+exit
+#1791623837
+echo $HISTFILESIZE
+#1791623865
+ls ~/.
+#1791623878
+ls ~./.
+#1791623887
+ls /.
+#1791623901
+ls /.*
+#1791623908
+ls ~/.*
+#1791623954
+export HISTTIMEFORMAT="%F %T "
+#1791623973
+histiry
+#1791623976
+history
+#1791624025
+вфеу
+#1791624027
+date
+#1791624040
+history | tail -n 5
+#1791624117
+echo $PROMPT_COMMAND
+#1791624280
+export PROMPT_COMMAND="history -a"
+#1791624294
+history | tail -n 5
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ cat ~/.bash_historydatecat ~/.bash_history[12Phistory | tail -n 5export PROMPT_COMMAND=""[5Phistory | tail -n 5
+[?2004l  208  2026-10-10 16:25:22 history
+  209  2026-10-10 16:26:01 cat ~/.bash_history
+  210  2026-10-10 16:26:13 date
+  211  2026-10-10 16:26:33 cat ~/.bash_history
+  212  2026-10-10 16:27:05 history | tail -n 5
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ history | tail -n 5cat ~/.bash_historydatecat ~/.bash_history[12Phistory | tail -n 5export PROMPT_COMMAND=""[5Phistory | tail -n 5export PROMPT_COMMAND=""[5Phistory | tail -n 5export PROMPT_COMMAND="history -a"
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ вфdate
+[?2004lSat Oct 10 04:27:42 PM +07 2026
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ dateexport PROMPT_COMMAND="history -a"[15Phistory | tail -n 5cat ~/.bash_history
+[?2004ld
+screen d
+screen -ls
+screen -r
+w
+screen
+d
+w
+top
+d
+screen -ls
+screen
+screen -ls
+screen -d -S my_name
+screen -d 3351269
+screen -d 3351269.pts-0.eltex-2026-autumn
+screen -d -ь 3351269.pts-0.eltex-2026-autumn
+screen -d -m 3351269.pts-0.eltex-2026-autumn
+screen -ls
+screen -r
+screen -r 3351269.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -ls
+d
+DDDDdddd
+d
+w
+в
+d
+w
+screen -ls
+ps
+screen
+screen -ls
+screen -r 3316924.pts-0.eltex-2026-autumn
+screen -r 3316924
+screen
+screen -ls
+screen -r 3316924.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -ls
+session -r 3363633.pts-0.eltex-2026-autumn
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r top
+screen -r 3363633.pts-0.eltex-2026-autumn
+screen -ls
+screen -r 3363633.top
+screen -ls
+screen -r 3363633.top
+screen
+screen -ls
+watch /usr/bin/vmstat
+screen -ls
+screen -r 3363633.top
+screen -d -r 3363633.top
+screen -ls
+w
+man screen
+top
+vi report_part1.txt
+ls
+vi report_part1.txt
+ls
+vi report_part1.txt
+ls
+nano report_part1.txt 
+cat report_part1.txt 
+qды
+screen -r 3393200.pts-0.eltex-2026-autumn
+screen -ls
+screen -X -S 3363633.top quit
+screen -X -S 3393200.pts-0.eltex-2026-autumn quit
+screen -ls
+touch eltex-pg2-v3_part.log
+script -f -q /dev/stdout | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" > eltex-pg2-v3_part.log 
+cat eltex-pg2-v3_part.log 
+rm eltex-pg2-v3_part.log 
+history
+touch eltex-pg2-v3_part.log
+screen -S `whoami`_part2
+screen -ls
+screen -r 3439045.eltex-pg2-v3_part2
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -r 3439045.`whoami`_part2 
+screen -r 3439045.`whoami`_part2  
+screen -r 3439045.`whoami`_part2
+screen -d -r 3439045.`whoami`_part2
+#1791538147
+quit
+#1791538376
+ды
+#1791538378
+сфе
+#1791538386
+cat
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+
+cat report_part1.txt 
+tail -f
+tail -f eltex-pg2-v3_part.log 
+cat eltex-pg2-v3_part.log 
+tail -f eltex-pg2-v3_part.log 
+touch write_comm.sh
+nano write_
+nano write_comm.sh 
+bash write_comm.sh &
+cat write_comm.sh 
+rm write_logs.sh 
+cat eltex-pg2-v3_part.log 
+ps
+kill -9 3484847
+ps -a
+bash write_comm.sh
+cat eltex-pg2-v3_part.log 
+ls
+ls -a
+ps
+bash write_comm.sh
+rm write_comm.sh 
+nano ~/.bashrc 
+source ~/.bashrc
+screen -ls
+screen -r 3439045.`whoami`_part2
+screen -d -r 3439045.`whoami`_part2
+screen -ls
+screen -r '3439045.`whoami`_part2'
+ls
+screen -r '3439045.`whoami`_part2'
+ls
+dfs
+screen -r '3439045.`whoami`_part2'
+ls
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+screen -r '3439045.`whoami`_part2'
+cat report_part1.txt 
+screen -r '3439045.`whoami`_part2'
+screen -ls
+cat eltex-pg2-v3_part.log 
+screen -r '3439045.`whoami`_part2'
+screen -ls
+screen -X -S 3439045.`whoami`_part2
+screen -X -S '3439045.`whoami`_part2'
+screen -X -S '3439045.`whoami`_part2' quit
+screen -ls
+screen
+screen -ls
+screen -r '3439045.`whoami`_part2'
+screen -r '3482982.`whoami`_part2'
+screen -ls
+screen
+screen -r '3482982.`whoami`_part2'
+screen -ls
+screen -r 3490814.pts-0.eltex-2026-autumn
+screen -ls
+screen
+screen -wipe && killall screen
+screen -wipe
+killall -9 screen
+kill -9 screen
+rm -f ~/.screenrc
+rm -rf /run/screen/S-$USER/
+rm -rf /var/run/screen/S-$USER/
+screen -ls
+screen
+cat report_part1.txt 
+cat eltex-pg2-v3_part.log 
+exit
+cat eltex-pg2-v3_part.log 
+cat report_part1.txt 
+pd
+ps
+rm eltex-pg2-v3_part.log 
+exit
+cat report_part1.txt 
+exit
+ls -a
+cat .log
+exit
+cat report_part1.txt 
+ls
+ls -a
+exit
+man history
+cat eltex-pg2-v3_part.log 
+exit
+#1791623837
+echo $HISTFILESIZE
+#1791623865
+ls ~/.
+#1791623878
+ls ~./.
+#1791623887
+ls /.
+#1791623901
+ls /.*
+#1791623908
+ls ~/.*
+#1791623954
+export HISTTIMEFORMAT="%F %T "
+#1791623973
+histiry
+#1791623976
+history
+#1791624025
+вфеу
+#1791624027
+date
+#1791624040
+history | tail -n 5
+#1791624117
+echo $PROMPT_COMMAND
+#1791624280
+export PROMPT_COMMAND="history -a"
+#1791624294
+history | tail -n 5
+#1791624314
+export PROMPT_COMMAND=""
+#1791624318
+history | tail -n 5
+#1791624322
+history
+#1791624361
+cat ~/.bash_history
+#1791624373
+date
+#1791624393
+cat ~/.bash_history
+#1791624425
+history | tail -n 5
+#1791624450
+export PROMPT_COMMAND="history -a"
+#1791624462
+date
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ 
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ DATE=$(date)
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ echo $DATE
+[?2004lSat Oct 10 04:32:43 PM +07 2026
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ TIME=$(date +%T)
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ echo $TIME
+[?2004l16:33:09
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ DATE_TIME=$(DATE + " " + TIME)
+[?2004lbash: DATE: command not found
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ DATE_TIME=$(DATE + " " + TIME)[1@)[C[C[C[C[C[C[C[C[C$TIME)(TIME)
+[?2004lbash: TIME: command not found
+bash: DATE: command not found
+bash: +: command not found
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ DATE_TIME=$(DATE) + " " + $(TIME)[C[C[C[C[C[C[C[1@([C[1@$[C[1P[1@$[1@C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+[?2004lbash: DATE: command not found
+bash: TIME: command not found
+bash: +: command not found
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ DATE_TIME=$($(DATE) + " " + $(TIME))[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$DATE $TIME@"
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ echo $DATE_TIME
+[?2004lSat Oct 10 04:32:43 PM +07 2026 16:33:09
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls /bin /sbin | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ PS1='\u@\h-$(date +%H:%M)> '
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn-16:37> export PS1
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn-16:37> ифырbash
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ sh
+[?2004l\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ ^C
+\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ bash
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ифыbash
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ echo $PS1
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ exit
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ echo $SHLVL
+[?2004l6
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ rcmkdir -p ~/$(date +%Y)-{01..12}
+[?2004l[?2004heltex-pg2-v3@eltex-2026-autumn:~$ ls
+[?2004l2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  eltex-pg2-v3_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  report_part1.txt
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ excit
+[?2004lexit
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ exit
+[?2004lexit
+\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ exit
+[?2004heltex-pg2-v3@eltex-2026-autumn:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v3@eltex-2026-autumn-16:42> ls
+[?2004l2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  eltex-pg2-v3_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  report_part1.txt
+[?2004heltex-pg2-v3@eltex-2026-autumn-16:42> exit
+[?2004lexit
+
+Script done on 2026-10-10 16:42:26+07:00 [COMMAND_EXIT_CODE="0"]

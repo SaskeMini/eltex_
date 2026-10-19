@@ -1,0 +1,151 @@
+Script started on 2026-10-10 17:03:15+07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ ls
+[?2004l2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  eltex-pg2-v3_part0.log  eltex-pg2-v3_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg2-v3_part2.log  report_part1.txt
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ mkdir -p D1/D2/D3
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ ls
+[?2004l2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1                      eltex-pg2-v3_part2.log  report_part1.txt
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg2-v3_part0.log  eltex-pg2-v3_part.log
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ cd D1
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ cd D2
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2eltex-pg2-v3@eltex-2026-autumn:~/D1/D2$ toychuch file.txt
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2eltex-pg2-v3@eltex-2026-autumn:~/D1/D2$ nano file.txt 
+[?2004l[?2004h[?1049h(B[?7h[?1h=[?1h=[?25l(B(B[ Reading... ](B(B[ Read 0 lines ](B(B  GNU nano 7.2                                            file.txt                                                      (B(B^G(B Help(B^O(B Write Out   (B^W(B Where Is    (B^K(B Cut(B^T(B Execute     (B^C(B Location    (BM-U(B Undo(BM-A(B Set Mark(B^X(B Exit(B^R(B Read File   (B^\(B Replace     (B^U(B Paste(B^J(B Justify     (B^/(B Go To Line  (BM-E(B Redo(BM-6(B Copy[?12l[?25h[?25l(B*(B[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h67[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h67[?25l[?12l[?25h67[?25l[?12l[?25h67[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l[?12l[?25h6[?25l[?12l[?25h7[?25l(BSave modified buffer?                                                                                                    Y(B Yes(B N(B No   (B^C(B Cancel[?12l[?25h[?25l(B^G(B Help(BM-D(B DOS Format(BM-A(B Append(BM-B(B Backup File(B^C(B Cancel(BM-M(B Mac Format(BM-P(B Prepend(B^T(B Browse(BFile Name to Write: file.txt(B[?12l[?25h[?25l (B[ Writing... ](B(B (B(B[ Wrote 1 line ](B[?12l[?25h[?1049l[?1l>[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2eltex-pg2-v3@eltex-2026-autumn:~/D1/D2$ cat file.txt 
+[?2004l6767676767676767676676767676767
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2eltex-pg2-v3@eltex-2026-autumn:~/D1/D2$ cd D3
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln -s ../file.txt D1/D2/D3/symlink.txtlink.txtlink.txtlink.txtflink.txtilink.txtrlink.txtslink.txttlink.txtink.txtLink.txt
+[?2004lln: failed to create symbolic link 'D1/D2/D3/firstLink.txt': No such file or directory
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln -s ../file.txt D1/D2/D3/firstLink.txtfirstLink.txtfirstLink.txtfirstLink.txtfirstLink.txtfirstLink.txtfirstLink.txtfirstLink.txtfirstLink.txtfirstLink.txt
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln -s ../file.txt firstLink.txt[1@Dpwd
+[?2004l/home/eltex-pg2-v3/D1/D2/D3
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/D3file.txt /home/eltex-pg2-v3/D1/D2/D3/secondlLink.t xt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ ln /home/eltex-pg2-v3/D1/D2/file.txt /home/eltex-pg2-v3/D1/D2/D3/secondLink.txt
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1/D2/D3eltex-pg2-v3@eltex-2026-autumn:~/D1/D2/D3$ cd ../../..
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ ls -li D1/D2 D1/D2/D3
+[?2004lD1/D2:
+total 8
+917639 drwxr-xr-x 2 eltex-pg2-v3 eltex-pg2-v3 4096 Oct 10 17:06 D3
+917640 -rw-r--r-- 2 eltex-pg2-v3 eltex-pg2-v3   32 Oct 10 17:04 file.txt
+
+D1/D2/D3:
+total 4
+917641 lrwxrwxrwx 1 eltex-pg2-v3 eltex-pg2-v3 11 Oct 10 17:06 firstLink.txt -> ../file.txt
+917640 -rw-r--r-- 2 eltex-pg2-v3 eltex-pg2-v3 32 Oct 10 17:04 secondLink.txt
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ stat D1/D2/file.txt D1/D2/D3/symlink.txt D1/D2/D3/hardlink.txt
+[?2004l  File: D1/D2/file.txt
+  Size: 32        	Blocks: 8          IO Block: 4096   regular file
+Device: 254,2	Inode: 917640      Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1089/eltex-pg2-v3)   Gid: ( 1089/eltex-pg2-v3)
+Access: 2026-10-10 17:04:49.731803707 +0700
+Modify: 2026-10-10 17:04:44.811717795 +0700
+Change: 2026-10-10 17:06:59.954075921 +0700
+ Birth: 2026-10-10 17:04:11.707139627 +0700
+stat: cannot statx 'D1/D2/D3/symlink.txt': No such file or directory
+stat: cannot statx 'D1/D2/D3/hardlink.txt': No such file or directory
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ stat D1/D2/file.txt D1/D2/D3/symlink.txt D1/D2/D3/hardlink.txtstat D1/D2/file.txt D1/D2/D3/symlink.txt D1/D2/D3/hardlink.txt.txt.txt.txt.txt.txt.txt.txt.txtы.txt.txts.txtecondLink.txt.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txtd D1/D2/D3/secondLink.txt D1/D2/D3/secondLink.txtf D1/D2/D3/secondLink.txtirstLink.txt D1/D2/D3/secondLink.txt
+[?2004l  File: D1/D2/file.txt
+  Size: 32        	Blocks: 8          IO Block: 4096   regular file
+Device: 254,2	Inode: 917640      Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1089/eltex-pg2-v3)   Gid: ( 1089/eltex-pg2-v3)
+Access: 2026-10-10 17:04:49.731803707 +0700
+Modify: 2026-10-10 17:04:44.811717795 +0700
+Change: 2026-10-10 17:06:59.954075921 +0700
+ Birth: 2026-10-10 17:04:11.707139627 +0700
+  File: D1/D2/D3/firstLink.txt -> ../file.txt
+  Size: 11        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 254,2	Inode: 917641      Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1089/eltex-pg2-v3)   Gid: ( 1089/eltex-pg2-v3)
+Access: 2026-10-10 17:07:55.535044913 +0700
+Modify: 2026-10-10 17:06:07.573162292 +0700
+Change: 2026-10-10 17:06:07.573162292 +0700
+ Birth: 2026-10-10 17:06:07.573162292 +0700
+  File: D1/D2/D3/secondLink.txt
+  Size: 32        	Blocks: 8          IO Block: 4096   regular file
+Device: 254,2	Inode: 917640      Links: 2
+Access: (0644/-rw-r--r--)  Uid: ( 1089/eltex-pg2-v3)   Gid: ( 1089/eltex-pg2-v3)
+Access: 2026-10-10 17:04:49.731803707 +0700
+Modify: 2026-10-10 17:04:44.811717795 +0700
+Change: 2026-10-10 17:06:59.954075921 +0700
+ Birth: 2026-10-10 17:04:11.707139627 +0700
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ cmv D1`/D2/file.txt D1
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ ls D1
+[?2004lD2  file.txt
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ ашfile /D1//D2/D3/
+firstLink.txt   secondLink.txt  
+]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ file D1/D2/D3/firstLink.txt 
+[?2004lD1/D2/D3/firstLink.txt: broken symbolic link to ../file.txt
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ file D1/D2/D3/firstLink.txt secondLink.txt 
+[?2004lD1/D2/D3/secondLink.txt: ASCII text
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ кcd D1
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ rm -rf D2
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ls
+[?2004lfile.txt
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ sudo find / -type f -size +20M 2>/dev/null
+[?2004l/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system.journal
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ sudo find / -type f -size +20M -exec du -sh {} + 2>/dev/null
+[?2004l31M	/usr/bin/x86_64-linux-gnu-lto-dump-12
+31M	/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+32M	/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+30M	/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+0	/proc/kcore
+33M	/boot/initrd.img-6.1.0-44-amd64
+33M	/boot/initrd.img-6.1.0-50-amd64
+33M	/boot/initrd.img-6.1.0-53-amd64
+41M	/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+25M	/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+42M	/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+33M	/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+25M	/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+25M	/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system.journal
+39M	/var/cache/apt/srcpkgcache.bin
+39M	/var/cache/apt/pkgcache.bin
+48M	/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+49M	/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+32M	/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ вг du /proc/kcore -h
+[?2004l0	/proc/kcore
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ du /proc/kcore -h
+[?2004l0	/proc/kcore
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ Ddu /proc/kcore -hfind / -type f -size +20M -exec du -sh {} + 2>/dev/null2>/dev/nullsudo find / -type f -size +20M 2>/dev/null > large_files.txt_part3_gt20M.log [12@eltex-pg2-v3
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ find ~ -type f -mtime -1 2>/dev/null[18@/home/eltex-pg2-v3
+[?2004l/home/eltex-pg2-v3/eltex-pg2-v3_part0.log
+/home/eltex-pg2-v3/.lesshst
+/home/eltex-pg2-v3/eltex-pg2-v3_part.log
+/home/eltex-pg2-v3/.log
+/home/eltex-pg2-v3/eltex-pg2-v3_part2.log
+/home/eltex-pg2-v3/D1/file.txt
+/home/eltex-pg2-v3/D1/eltex-pg2-v3_part3_gt20M.log
+/home/eltex-pg2-v3/.bash_history
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ sudo find / -type f -name "find" 2>/dev/null
+[?2004l/usr/bin/find
+/usr/share/bash-completion/completions/find
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ашашду file /usr/bin/find
+[?2004l/usr/bin/find: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=5545a6c7162d325fbe5ffabcbfe4e5521b66ce70, for GNU/Linux 3.2.0, stripped
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ дls /boot/initrd.img-6.1.0-
+initrd.img-6.1.0-44-amd64  initrd.img-6.1.0-50-amd64  initrd.img-6.1.0-53-amd64  
+]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ ls /boot/initrd.img-6.1.0-* /boot/initrd.img-6.1.0-* /boot/initrd.img-6.1.0-*f /boot/initrd.img-6.1.0-*i /boot/initrd.img-6.1.0-*l /boot/initrd.img-6.1.0-*e /boot/initrd.img-6.1.0-*
+[?2004l/boot/initrd.img-6.1.0-44-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-50-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-53-amd64: ASCII cpio archive (SVR4 with no CRC)
+[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~/D1eltex-pg2-v3@eltex-2026-autumn:~/D1$ учсв юcd ..
+[?2004l[?2004h]0;eltex-pg2-v3@eltex-2026-autumn: ~eltex-pg2-v3@eltex-2026-autumn:~$ exit
+[?2004lexit
+
+Script done on 2026-10-10 17:44:06+07:00 [COMMAND_EXIT_CODE="0"]
