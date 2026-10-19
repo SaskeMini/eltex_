@@ -142,12 +142,20 @@ branch 'main' set up to track 'origin/main'.
 root@eltex-practice2-pg2-v3:~/eltex_module1# mkdir -p module1/task1
 root@eltex-practice2-pg2-v3:~/eltex_module1# mkdir module1/task2
 root@eltex-practice2-pg2-v3:~/eltex_module1# mkdir module1/task3
+
+
 ### С СЕРВЕРА ДЛЯ ПРАКТИКИ 1 ###
+
+
 eltex-pg2-v3@eltex-2026-autumn:~$ scp eltex-pg2-v3_part2.log root@172.16.9.203:/root/eltex_module1/module1/task1
 eltex-pg2-v3_part2.log                                                                100%   40KB   1.3MB/s   00:00
 eltex-pg2-v3@eltex-2026-autumn:~$ scp eltex-pg2-v3_part3.log root@172.16.9.203:/root/eltex_module1/module1/task1
 eltex-pg2-v3_part3.log                                                                100%   18KB 104.3KB/s   00:00
+
+
 ### С СЕРВЕРА ДЛЯ ПРАКТИКИ 1 ###
+
+
 root@eltex-practice2-pg2-v3:~/eltex_module1/module1# ls task1
 eltex-pg2-v3_part2.log  eltex-pg2-v3_part3.log
 root@eltex-practice2-pg2-v3:~/eltex_module1# git add *
@@ -175,3 +183,100 @@ Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/SaskeMini/eltex_module1
    59d7bec..29bb037  main -> main
 root@eltex-practice2-pg2-v3:~# mkdir ~/eltex_module1_clone && cd ~/eltex_module1_clone
+
+
+### С СЕРВЕРА ДЛЯ ПРАКТИКИ 1 И МОЕГО ТЕРМИНАЛА###
+
+
+sasha@DESKTOP-K2MMKN9:/mnt/c/Users/Sasha/Desktop/unik/4-1/eltex/2$ scp -P 44556 practice2_eltex-pg2-v3_part* eltex-pg2-v3@217.71.138.1:/home/eltex-pg2-v3
+eltex-pg2-v3@217.71.138.1's password:
+practice2_eltex-pg2-v3_part1.log                                                                                100%  336KB   7.7MB/s   00:00
+practice2_eltex-pg2-v3_part2.log                                                                                100%  156KB   8.2MB/s   00:00
+practice2_eltex-pg2-v3_part3.log                                                                                100% 9716     1.9MB/s   00:00
+sasha@DESKTOP-K2MMKN9:/mnt/c/Users/Sasha/Desktop/unik/4-1/eltex/2$ ssh eltex-pg2-v3@217.71.138.1 -p 44556
+eltex-pg2-v3@217.71.138.1's password:
+Linux eltex-2026-autumn 6.1.0-53-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.187-1 (2026-09-07) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Oct 20 00:49:06 2026 from 109.174.77.37
+eltex-pg2-v3@eltex-2026-autumn:~$ scp practice2_eltex-pg2-v3_part* root@172.16.9.203:/root/eltex_module1_clone/eltex_module1/module1/task2
+practice2_eltex-pg2-v3_part1.log                                                                                                       100%  336KB  85.7MB/s   00:00
+practice2_eltex-pg2-v3_part2.log                                                                                                       100%  156KB 111.2MB/s   00:00
+practice2_eltex-pg2-v3_part3.log
+
+
+### С СЕРВЕРА ДЛЯ ПРАКТИКИ 1  И МОЕГО ТЕРМИНАЛА###
+
+
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone# git clone https://github.com/SaskeMini/eltex_module1.git
+Cloning into 'eltex_module1'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 9 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), 7.61 KiB | 7.61 MiB/s, done.
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone# git fetch
+fatal: not a git repository (or any of the parent directories): .git
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone# ls
+eltex_module1
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone# cd eltex_module1/
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git fetch
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git log origin/main
+commit 29bb0374eccffae2b75d658f775b273f458d6386 (HEAD -> main, origin/main, origin/HEAD)
+Author: Saske_mini <korotkov-788@mail.ru>
+Date:   Mon Oct 19 17:53:49 2026 +0000
+
+    1task
+
+commit 59d7bec5eba6250500ade0fcacfb771e4749f811
+Author: Saske_mini <korotkov-788@mail.ru>
+Date:   Mon Oct 19 17:41:02 2026 +0000
+
+    first commit
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git diff main origin/main
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git merge
+Already up to date.
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# ls
+module1  README.md
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# cd module1/
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1/module1# ls
+task1
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1/module1# mkdir task2
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1/module1# pwd
+/root/eltex_module1_clone/eltex_module1/module1
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1/module1# ls task2
+practice2_eltex-pg2-v3_part1.log  practice2_eltex-pg2-v3_part2.log  practice2_eltex-pg2-v3_part3.log
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1/module1# св юю
+св: command not found
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1/module1# cd ..
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git add *
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   module1/task2/practice2_eltex-pg2-v3_part1.log
+        new file:   module1/task2/practice2_eltex-pg2-v3_part2.log
+        new file:   module1/task2/practice2_eltex-pg2-v3_part3.log
+
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git commit -m"practice2"
+[main 9f74562] practice2
+ 3 files changed, 6064 insertions(+)
+ create mode 100755 module1/task2/practice2_eltex-pg2-v3_part1.log
+ create mode 100755 module1/task2/practice2_eltex-pg2-v3_part2.log
+ create mode 100755 module1/task2/practice2_eltex-pg2-v3_part3.log
+root@eltex-practice2-pg2-v3:~/eltex_module1_clone/eltex_module1# git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 99.99 KiB | 11.11 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/SaskeMini/eltex_module1.git
+   29bb037..9f74562  main -> main
