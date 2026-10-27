@@ -1,7 +1,9 @@
 report/
 .idea/
 .vscode/
-phonebook 
+phonebook
+calc
+calc2
 testing
 *.gcda
 *.gcno
