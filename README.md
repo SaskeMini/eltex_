@@ -1,1 +1,1 @@
-# Repo for 1 module
+# Repo for eltex school
