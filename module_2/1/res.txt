@@ -1,4 +1,0 @@
-Index: 0, Name: 1111111111111111111111111111111111111111111111111, Surname: 1, Second name: 111111111111111111111111111111111111111111111111111, Work place: 1, Work stat: 1, Phone number: 1111111111111111111111111111111111111111111111, Email: 1, Links: 1
-Index: 1, Name: 1, Surname: 1, Second name: 1, Work place: 1, Work stat: 1, Phone number: , Email: 1, Links: 1
-Index: 2, Name: 1, Surname: 1, Second name: 1, Work place: 1, Work stat: 1, Phone number: , Email: 1, Links: 1
-Index: 3, Name: 1, Surname: 1, Second name: 1, Work place: 1, Work stat: 1, Phone number: 1, Email: 1, Links: 1
