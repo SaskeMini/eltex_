@@ -1,0 +1,4 @@
+report/
+.idea/
+.vscode/
+phonebook testing *.gcda *.gcno *info *.o
