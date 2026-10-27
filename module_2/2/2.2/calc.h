@@ -6,3 +6,4 @@ double sub(double, double);
 double mult(double, double);
 double dev(double, double);
 double input_num();
+void clear_stdin();

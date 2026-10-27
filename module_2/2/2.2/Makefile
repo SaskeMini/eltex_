@@ -10,7 +10,7 @@ all:
 	make clean
 
 $(NAME_FILE):
-	gcc $(CFLAGS) -c $(NAME_FILE)_source.c calc_main.c
+	gcc $(CFLAGS) -c $(NAME_FILE)_source.c $(NAME_FILE)_main.c
 	gcc $(NAME_FILE)_source.o $(NAME_FILE)_main.o -o $(NAME_FILE)
 
 memory:

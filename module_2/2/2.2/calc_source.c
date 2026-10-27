@@ -28,8 +28,14 @@ double input_num(){
         if (check_exit == '$'){ return NAN; }
         ungetc(check_exit, stdin);
         if (scanf("%lf", &res) < 1) { 
-            printf("Incorrect number. Input 1 number:\n");
+            printf("Incorrect number. Input number:\n");
+            clear_stdin();
         }
         else { return res; }
     }
+}
+
+void clear_stdin() {
+    int c;
+    while ((c = getchar()) != '\n') {}
 }
