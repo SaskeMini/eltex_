@@ -1,7 +1,7 @@
 CFLAGS=-Wall -Werror -Wextra
 CHECK=-lcheck -lsubunit -lm -lrt -lpthread
 GCOV_FLAGS=-fprofile-arcs -ftest-coverage
-NAME_FILE=net
+NAME_FILE=chmod
 
 all:
 	make clean
