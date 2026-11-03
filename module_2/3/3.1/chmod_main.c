@@ -25,18 +25,20 @@ int main(){
             scanf("%s", buff);
             if (atoi(buff) == 0 && buff[0] != 0){
                 rights = bits_rights(buff);
-                printf("%s %s %s\n", all_flags[rights / 100].bits, all_flags[rights / 10 % 10].bits, all_flags[rights % 10].bits);
+                printf("Bits: %s %s %s\n", all_flags[rights / 100].bits, all_flags[rights / 10 % 10].bits, all_flags[rights % 10].bits);
             }
             else if (atoi(buff) != 0){
                 rights = atoi(buff);
-                printf("%s %s %s\n", all_flags[atoi(buff) / 100].bits, all_flags[atoi(buff) / 10 % 10].bits, all_flags[atoi(buff) % 10].bits);
+                printf("Bits: %s %s %s\n", all_flags[atoi(buff) / 100].bits, all_flags[atoi(buff) / 10 % 10].bits, all_flags[atoi(buff) % 10].bits);
             }
         }
         else if (comm == 2){
             char buff[50];
             scanf("%s", buff);
             rights = file_rights(buff);
-            printf("%s %s %s\n", all_flags[rights / 100].bits, all_flags[rights / 10 % 10].bits, all_flags[rights % 10].bits);
+            printf("Letters: %s %s %s\n", all_flags[rights / 100].sym, all_flags[rights / 10 % 10].sym, all_flags[rights % 10].sym);
+            printf("Digits: %d\n", rights);
+            printf("Bits: %s %s %s\n", all_flags[rights / 100].bits, all_flags[rights / 10 % 10].bits, all_flags[rights % 10].bits);
         }
         else if (comm == 3){
             printf("Current rights: %d\n", rights);
@@ -44,11 +46,15 @@ int main(){
             scanf("%s", buff);
             if (atoi(buff) == 0 && buff[0] != 0){
                 rights = modificate_rights(buff, rights);
-                printf("%s %s %s\n", all_flags[rights / 100].bits, all_flags[rights / 10 % 10].bits, all_flags[rights % 10].bits);
+                printf("Letters: %s %s %s\n", all_flags[rights / 100].sym, all_flags[rights / 10 % 10].sym, all_flags[rights % 10].sym);
+                printf("Digits: %d\n", rights);
+                printf("Bits: %s %s %s\n", all_flags[rights / 100].bits, all_flags[rights / 10 % 10].bits, all_flags[rights % 10].bits);
             }
             else if (atoi(buff) != 0){
                 rights = atoi(buff);
-                printf("%s %s %s\n", all_flags[atoi(buff) / 100].bits, all_flags[atoi(buff) / 10 % 10].bits, all_flags[atoi(buff) % 10].bits);
+                printf("Letters: %s %s %s\n", all_flags[atoi(buff) / 100].sym, all_flags[atoi(buff) / 10 % 10].sym, all_flags[atoi(buff) % 10].sym);
+                printf("Digits: %d\n", rights);
+                printf("Bits: %s %s %s\n", all_flags[atoi(buff) / 100].bits, all_flags[atoi(buff) / 10 % 10].bits, all_flags[atoi(buff) % 10].bits);
             }
         }
 
