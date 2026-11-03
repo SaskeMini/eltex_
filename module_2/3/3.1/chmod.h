@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
+#include <string.h>
 #include <sys/stat.h>
 #include <sys/stat.h>
 
-void bits_rights(int argc, char *argv[], char all[]);
-void file_rights(int argc, char *argv[], char all[]);
-void modificate_rights(int argc, char *argv[], char all[]);
+int bits_rights(char buff[]);
+int file_rights(char buff[]);
+int modificate_rights(char buff[], int rights);
 
 typedef struct rights{
     char sym[4];
