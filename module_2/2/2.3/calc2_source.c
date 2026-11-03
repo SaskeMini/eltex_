@@ -1,6 +1,6 @@
 #include "calc2.h"
 
-double add(double a, double b){
+double sum(double a, double b){
     return a + b;
 }
 
@@ -12,11 +12,7 @@ double mult(double a, double b){
     return a * b;
 }
 
-double dev(double a, double b){
-    if (b == 0){
-        printf("Division by zero");
-        return NAN;
-    }
+double div(double a, double b){
     return a / b;
 }
 

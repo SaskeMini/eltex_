@@ -1,15 +1,14 @@
 #include "calc2.h"
 
 int main(){
-    oper all[4] = {{'+', add}, {'-', sub}, {'*', mult}, {'/', dev}};
+    oper all[4] = {{'+', sum}, {'-', sub}, {'*', mult}, {'/', div}};
     printf("Input $ to exit\n");
-    char check_break = 1;
     double a;
     printf("Input 1 number:\n");
     a = input_num();
-    if (isnan(a)){ check_break = 0; }
+    if (isnan(a)){ return 0; }
     getchar();
-    while (check_break){
+    while (1){
         double b;
         printf("Input action:\n");
         func op = NULL;
@@ -21,10 +20,13 @@ int main(){
         if (op){
             printf("Input 2 number:\n");
             b = input_num();
-            double res;
-            isnan(b) ? check_break = 0 : isnan(res = op(a, b)) ? printf("\n") : printf("Res: %lf\n", res);
-            a = res;
-            getchar();
+            if (isnan(b)){ break; }
+            if (b == 0 && op == div){ printf("Div by zero\n"); clear_stdin();}
+            else{
+                a = op(a, b);
+                printf("Res: %lf\n", a);
+                getchar();
+            }
         }
         else{
             printf("Incorrect action\n");
