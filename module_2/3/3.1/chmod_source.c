@@ -54,116 +54,65 @@ int file_rights(char buff[]){
     return file_info.st_mode & 0777;
 }
 
-int modificate_rights(char buff[], int rights){
-    int start = buff[0] == '+' || buff[0] == '-' ? 1 : 2;
+int modificate_rights(char buff[], int rights) {
+    int u = 0, g = 0, o = 0;
+    size_t i = 0;
+    while (buff[i] != '\0' && buff[i] != '+' && buff[i] != '-') {
+        if (buff[i] == 'u') u = 1;
+        else if (buff[i] == 'g') g = 1;
+        else if (buff[i] == 'o') o = 1;
+        else if (buff[i] == 'a') u = g = o = 1;
+        else {
+            printf("Incorrect\n");
+            return rights;
+        }
+        i++;
+    }
+    if (buff[i] == '\0' || buff[i + 1] == '\0') {
+        printf("Incorrect\n");
+        return rights;
+    }
+    if (i == 0) { u = g = o = 1; }
+
+    char op = buff[i];
     int temp_rights = 0;
-    for (size_t i = start; i < strlen(buff); i++){
-        if (buff[i] == 'r'){
-            if (buff[0] == '-'){
-                if (rights / 100 >= 4){ temp_rights -= 400; }
-                if (rights / 10 % 10 >= 4){ temp_rights -= 40; }
-                if (rights % 10 >= 4){ temp_rights -= 4; }
+
+    for (size_t j = i + 1; j < strlen(buff); j++) {
+        if (buff[j] == 'r') {
+            if (op == '-') {
+                if (u && rights / 100 >= 4) temp_rights -= 400;
+                if (g && rights / 10 % 10 >= 4) temp_rights -= 40;
+                if (o && rights % 10 >= 4) temp_rights -= 4;
+            } else if (op == '+') {
+                if (u && rights / 100 < 4) temp_rights += 400;
+                if (g && rights / 10 % 10 < 4) temp_rights += 40;
+                if (o && rights % 10 < 4) temp_rights += 4;
             }
-            else if (buff[1] == '-'){
-                if (buff[0] == 'u'){
-                    if (rights / 100 >= 4){ temp_rights -= 400; }
-                }
-                if (buff[0] == 'g'){
-                    if (rights / 10 % 10 >= 4){ temp_rights -= 40; }
-                }
-                if (buff[0] == 'o'){
-                    if (rights % 10 >= 4){ temp_rights -= 4; }
-                }
+        } else if (buff[j] == 'w') {
+            if (op == '-') {
+                if (u && (rights / 100 == 2 || rights / 100 == 3 || rights / 100 == 6 || rights / 100 == 7)) temp_rights -= 200;
+                if (g && (rights / 10 % 10 == 2 || rights / 10 % 10 == 3 || rights / 10 % 10 == 6 || rights / 10 % 10 == 7)) temp_rights -= 20;
+                if (o && (rights % 10 == 2 || rights % 10 == 3 || rights % 10 == 6 || rights % 10 == 7)) temp_rights -= 2;
+            } else if (op == '+') {
+                if (u && (rights / 100 != 2 && rights / 100 != 3 && rights / 100 != 6 && rights / 100 != 7)) temp_rights += 200;
+                if (g && (rights / 10 % 10 != 2 && rights / 10 % 10 != 3 && rights / 10 % 10 != 6 && rights / 10 % 10 != 7)) temp_rights += 20;
+                if (o && (rights % 10 != 2 && rights % 10 != 3 && rights % 10 != 6 && rights % 10 != 7)) temp_rights += 2;
             }
-            else if (buff[0] == '+'){
-                if (rights / 100 < 4){ temp_rights += 400; }
-                if (rights / 10 % 10 < 4){ temp_rights += 40; }
-                if (rights % 10 < 4){ temp_rights += 4; }
+        } else if (buff[j] == 'x') {
+            if (op == '-') {
+                if (u && rights / 100 % 2 == 1) temp_rights -= 100;
+                if (g && rights / 10 % 10 % 2 == 1) temp_rights -= 10;
+                if (o && rights % 10 % 2 == 1) temp_rights -= 1;
+            } else if (op == '+') {
+                if (u && rights / 100 % 2 == 0) temp_rights += 100;
+                if (g && rights / 10 % 10 % 2 == 0) temp_rights += 10;
+                if (o && rights % 10 % 2 == 0) temp_rights += 1;
             }
-            else if (buff[1] == '+'){
-                if (buff[0] == 'u'){
-                    if (rights / 100 < 4){ temp_rights += 400; }
-                }
-                if (buff[0] == 'g'){
-                    if (rights / 10 % 10 < 4){ temp_rights += 40; }
-                }
-                if (buff[0] == 'o'){
-                    if (rights % 10 < 4){ temp_rights += 4; }
-                }
-            }
-        }
-        else if (buff[i] == 'w'){
-            if (buff[0] == '-'){
-                if (rights / 100 == 2 || rights / 100 == 3 || rights / 100 == 6 || rights / 100 == 7){ temp_rights -= 200; }
-                if (rights / 10 % 10 == 2 || rights / 10 % 10 == 3 || rights / 10 % 10 == 6 || rights / 10 % 10 == 7){ temp_rights -= 20; }
-                if (rights % 10 == 2 || rights % 10 == 3 || rights % 10 == 6 || rights % 10 == 7){ temp_rights -= 2; }
-            }
-            else if (buff[1] == '-'){
-                if (buff[0] == 'u'){
-                    if (rights / 100 == 2 || rights / 100 == 3 || rights / 100 == 6 || rights / 100 == 7){ temp_rights -= 200; }
-                }
-                if (buff[0] == 'g'){
-                    if (rights / 10 % 10 == 2 || rights / 10 % 10 == 3 || rights / 10 % 10 == 6 || rights / 10 % 10 == 7){ temp_rights -= 20; }
-                }
-                if (buff[0] == 'o'){
-                    if (rights % 10 == 2 || rights % 10 == 3 || rights % 10 == 6 || rights % 10 == 7){ temp_rights -= 2; }
-                }
-            }
-            else if (buff[0] == '+'){
-                if (rights / 100 != 2 && rights / 100 != 3 && rights / 100 != 6 && rights / 100 != 7){ temp_rights += 200; }
-                if (rights / 10 % 10 != 2 && rights / 10 % 10 != 3 && rights / 10 % 10 != 6 && rights / 10 % 10 != 7){ temp_rights += 20; }
-                if (rights % 10 != 2 && rights % 10 != 3 && rights % 10 != 6 && rights % 10 != 7){ temp_rights += 2; }
-            }
-            else if (buff[1] == '+'){
-                if (buff[0] == 'u'){
-                    if (rights / 100 != 2 && rights / 100 != 3 && rights / 100 != 6 && rights / 100 != 7){ temp_rights += 200; }
-                }
-                if (buff[0] == 'g'){
-                    if (rights / 10 % 10 != 2 && rights / 10 % 10 != 3 && rights / 10 % 10 != 6 && rights / 10 % 10 != 7){ temp_rights += 20; }
-                }
-                if (buff[0] == 'o'){
-                    if (rights % 10 != 2 && rights % 10 != 3 && rights % 10 != 6 && rights % 10 != 7){ temp_rights += 2; }
-                }
-            }
-        }
-        else if (buff[i] == 'x'){
-            if (buff[0] == '-'){
-                if (rights / 100 % 2 == 1){ temp_rights -= 100; }
-                if (rights / 10 % 10 % 2 == 1){ temp_rights -= 10; }
-                if (rights % 10 % 2 == 1){ temp_rights -= 1; }
-            }
-            else if (buff[1] == '-'){
-                if (buff[0] == 'u'){
-                    if (rights / 100 % 2 == 1){ temp_rights -= 100; }
-                }
-                if (buff[0] == 'g'){
-                    if (rights / 10 % 10 % 2 == 1){ temp_rights -= 10; }
-                }
-                if (buff[0] == 'o'){
-                    if (rights % 10 % 2 == 1){ temp_rights -= 1; }
-                }
-            }
-            else if (buff[0] == '+'){
-                if (rights / 100 % 2 == 0){ temp_rights += 100; }
-                if (rights / 10 % 10 % 2 == 0){ temp_rights += 10; }
-                if (rights % 10 % 2 == 0){ temp_rights += 1; }
-            }
-            else if (buff[1] == '+'){
-                if (buff[0] == 'u'){
-                    if (rights / 100 % 2 == 0){ temp_rights += 100; }
-                }
-                if (buff[0] == 'g'){
-                    if (rights / 10 % 10 % 2 == 0){ temp_rights += 10; }
-                }
-                if (buff[0] == 'o'){
-                    if (rights % 10 % 2 == 0){ temp_rights += 1; }
-                }
-            }
-        }
-        else{
+        } else {
             printf("Incorrect\n");
             return rights;
         }
     }
+
     return rights + temp_rights;
 }
