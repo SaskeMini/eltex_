@@ -6,9 +6,8 @@ NAME_FILE=copy_files
 all:
 	make clean
 	make $(NAME_FILE)
-
-	./$(NAME_FILE) copy_files.h copy_files2.h copy_files_main.c
-	./$(NAME_FILE) -p myfifo
+	./$(NAME_FILE) copy_files2.h copy_files_main.c
+	./$(NAME_FILE) -p myfifo copy_files.h
 	./$(NAME_FILE) -p
 	./$(NAME_FILE) -p myfifo codfgdf
 	make clean
